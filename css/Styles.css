@@ -1,0 +1,119 @@
+/********************************************TAG SELECTOR*******************/
+body {
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+  background-color: #fff;
+  color: #0a223f;
+}
+
+/********************************************CLASS SELECTOR*****************/
+.header-logo{background-image: url(https://softpay.io/wp-content/themes/softpay/assets/images/softpay-logo-dark-orange.svg); }
+
+.logo {
+  background-repeat: no-repeat;
+    background-size: contain;
+    width: 150px;
+    height: 50px;
+    display: block;
+}
+a, a:visited {
+    color: #0a223f;
+    text-decoration: none;
+  }
+
+
+.sidebar {
+  font-size: 1em;
+font-weight: 700;
+    background-color: #fff;
+    width: 20rem;
+    position: fixed;
+    z-index: 10;
+    margin: 0;
+    top: 12rem;
+    left: 0;
+    bottom: 0;
+box-sizing:  border-box;
+    border-right: 1px solid #eaecef;
+    overflow-y: auto;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    display: inline-block;
+
+}
+
+.sidebar a {
+  display: block;
+  color: #0a223f;
+  padding: 4px;
+  text-decoration: none;
+}
+
+
+.sidebar a:hover:not(.active) {
+    color: #FE957C;
+}
+
+div.content {
+  margin-left: 350px;
+  margin-top: 50px;
+  padding:1pX 16px;
+  height: 500px;
+}
+
+
+@media screen and (max-width: 400px) {.sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+{box-sizing: border-box;}
+
+
+
+.titleColumn {
+  float: left;
+  width: 50%;
+  padding: 6px;
+  }
+
+
+.titleRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.floatRight{
+  float:right;
+
+  width: 50%;
+  padding: 6px;
+}
+
+  h1{
+
+float: left;
+
+}
+
+
+table, td, th {
+  border: 1px solid black;
+}
+
+table {
+  width: 60%;
+  border-collapse: collapse;
+}
