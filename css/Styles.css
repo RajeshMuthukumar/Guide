@@ -1,4 +1,4 @@
-/********************************************TAG SELECTOR*******************/
+
 body {
   font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 
@@ -6,7 +6,7 @@ body {
   color: #0a223f;
 }
 
-/********************************************CLASS SELECTOR*****************/
+
 .header-logo{background-image: url(https://softpay.io/wp-content/themes/softpay/assets/images/softpay-logo-dark-orange.svg); }
 
 .logo {
@@ -15,9 +15,13 @@ body {
     width: 150px;
     height: 50px;
     display: block;
+    position: fixed;
 }
+
+.user {position: fixed;}
+
 a, a:visited {
-    color: #0a223f;
+    color: #FE957C;
     text-decoration: none;
   }
 
@@ -110,10 +114,28 @@ float: left;
 
 
 table, td, th {
-  border: 1px solid black;
+    border: 1px solid black;
+  text-align: -internal-center;
 }
 
 table {
-  width: 60%;
+  width: 65%;
   border-collapse: collapse;
+text-align: -internal-center;
+  }
+
+
+
+footer {
+    color: #0a223f;
+    background: #caf7e3;
+    padding: 1pt;
 }
+
+
+
+
+footer {
+    display: block;
+}
+h2 {color: #FE957C;}
